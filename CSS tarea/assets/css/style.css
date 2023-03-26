@@ -1,0 +1,181 @@
+body {
+  background-color: #eaeaea;
+  margin-left: 5rem;
+}
+h1,
+h5 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+}
+
+header {
+  text-align: center;
+  color: rgb(25, 23, 23);
+  margin-top: 3rem;
+}
+.container {
+  position: relative;
+  width: min(90%, 120rem);
+  margin: 0 auto;
+}
+
+.navegacion {
+  display: flex;
+  gap: 2rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    border: 2px solid;
+}
+/*Boton nuevo*/
+.navegacion-datos-nuevo {
+  display: inline-block;
+  font-size: 18px;
+  color: #fff;
+  background-color: #4caf50;
+  border-radius: 4px;
+  box-shadow: 0px 3px 0px #2e8b57;
+}
+
+.navegacion-datos-nuevo:hover {
+  background-color: #3e8e41;
+  box-shadow: 0px 2px 0px #2e8b57;
+}
+
+.navegacion-datos-nuevo:active {
+  background-color: #367c39;
+  box-shadow: none;
+}
+/*Boton editar*/
+.navegacion-datos-editar {
+  display: inline-block;
+  font-size: 18px;
+  margin-right: 5px;
+  color: #fff;
+  background-color: #269bea;
+  border-radius: 4px;
+  box-shadow: 0px 3px 0px #2e678b;
+}
+
+.navegacion-datos-editar:hover {
+  background-color: #3e8e8e;
+  box-shadow: 0px 2px 0px #226478;
+}
+
+.navegacion-datos-editar:active {
+  background-color: #367a7c;
+  box-shadow: none;
+}
+/*Boton eliminar*/
+.navegacion-datos-eliminar {
+  display: inline-block;
+
+  font-size: 18px;
+  color: #fff;
+  background-color: #92051d;
+  border-radius: 4px;
+  box-shadow: 0px 3px 0px #c2526e;
+}
+
+.navegacion-datos-eliminar:hover {
+  background-color: #833b4a;
+  box-shadow: 0px 1px 0px #970c28;
+}
+
+.navegacion-datos-eliminar:active {
+  background-color: #480709;
+  box-shadow: none;
+}
+footer{
+    margin-top: 100rem;
+}
+
+/*CSS de producto.html------(Formulario)*/
+.form {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  
+  }
+  
+  .text,
+  select {
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #555;
+  }
+  
+  .checkbox {
+    margin-top: 20px;
+    margin-right: 10px;
+    
+    
+  }
+  
+  .button-Guardar {
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 30px;
+   
+  }
+  
+  .button-Guardar:hover {
+    background-color: #45a049;
+  }
+  
+  .button-Cancelar {
+    background-color: #911433;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 30px;
+  }
+  
+  .button-Cancelar:hover {
+    background-color: #6e0505;
+  }
+  
+  label {
+    font-weight: bold;
+    
+  }
+  .label{
+    display: inline-flexbox;
+    width: 30%;
+    margin-right: 5%;
+    text-align: right;
+    font-weight: bold;
+  }
+  /*CSS pagina Mensaje*/
+  p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 100px;
+    color: #6e0505;
+    display: flexbox;
+  }
