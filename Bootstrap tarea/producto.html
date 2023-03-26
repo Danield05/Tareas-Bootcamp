@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="assets/style.css" />
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <title>Producto</title>
+</head>
+
+<body>
+    <div class="form-container">
+        <form class="form" action="mensaje.html" method="get">
+            <fieldset>
+                <legend>Registro de productos</legend>
+                <label class="label" for="codigo">Código:</label>
+                <input class="text" type="text" id="codigo" name="codigo"><br>
+
+                <label class="label"for="descripcion">Descripción:</label>
+                <input class="text" type="text" id="descripcion" name="descripcion"><br>
+
+                <label class="label"for="codigobarra">Código de Barra:</label>
+                <input class="text" type="text" id="codigobarra" name="codigobarra"><br>
+
+                <label class="label" for="preciounitario">Precio Unitario:</label>
+                <input class="text" type="text" id="preciounitario" name="preciounitario"><br>
+
+                <label class="label" for="stock">Stock:</label>
+                <input class="text" type="text" id="stock" name="stock"><br>
+
+                <label class="label" for="proveedor">Proveedor:</label>
+                <input class="text" type="text" id="proveedor" name="proveedor"><br>
+
+                <label for="estado">Estado:</label>
+                <input class="checkbox" type="checkbox" id="estado" name="estado" value="activo">
+                <label for="estado">Activo</label>
+                <br><br>
+
+                <label for="categoria">Categoría:</label>
+                <select id="categoria" name="categoria">
+                    <option value="si">Categoría 1</option>
+                    <option value="si">Categoría 2</option>
+                    <option value="si">Categoría 3</option>
+                    <option value="si">Categoría 4</option>
+                    <option value="si">Categoría 5</option>
+                </select><br>
+            
+                <button type="submit" class="button-Guardar">Guardar</button>
+                <input class="button-Cancelar" type="submit" value="Cancelar" formaction="index.html">
+            </fieldset>
+        </form>
+    </div>
+    <footer><h5>Jose Daniel Aquino-FSJ15</h5></footer>
+    <!---JS Bootstrap--->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+</body>
+</html>
